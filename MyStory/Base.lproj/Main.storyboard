@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kr0-hA-KIq">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yeq-IN-n33">
-                                <rect key="frame" x="147.66666666666666" y="443" width="98" height="103"/>
+                                <rect key="frame" x="147.66666666666666" y="444" width="98" height="103"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiV-K9-LZK">
                                         <rect key="frame" x="0.0" y="0.0" width="98" height="34.333333333333336"/>
@@ -32,7 +32,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Abilities"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtv-rd-H0L">
-                                        <rect key="frame" x="0.0" y="68.666666666666686" width="98" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="68.666666666666629" width="98" height="34.333333333333343"/>
                                         <color key="tintColor" red="1" green="0.47867202889999999" blue="0.96443137879999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Fun Fact"/>
@@ -40,7 +40,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="vfY-nM-xlT">
-                                <rect key="frame" x="103" y="99" width="187" height="319"/>
+                                <rect key="frame" x="103" y="100" width="187" height="319"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nezuko Kamado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYK-WT-F1e">
                                         <rect key="frame" x="0.0" y="0.0" width="187" height="27"/>
@@ -57,18 +57,37 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vfY-nM-xlT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="6pD-Ls-8sz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yeq-IN-n33" secondAttribute="trailing" constant="147.5" id="Lvj-gR-nSn"/>
-                            <constraint firstItem="Yeq-IN-n33" firstAttribute="top" secondItem="vfY-nM-xlT" secondAttribute="bottom" constant="25" id="NuO-Xj-9qg"/>
-                            <constraint firstItem="Yeq-IN-n33" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="147.5" id="V31-4A-gZb"/>
-                            <constraint firstItem="vfY-nM-xlT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="gSZ-LL-DxI"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yeq-IN-n33" secondAttribute="bottom" constant="272" id="gg7-GV-01J"/>
-                            <constraint firstItem="Yeq-IN-n33" firstAttribute="top" secondItem="vfY-nM-xlT" secondAttribute="bottom" constant="25" id="n7u-Fn-a20"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vfY-nM-xlT" secondAttribute="trailing" constant="103" id="v7R-Tx-Rs5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vfY-nM-xlT" secondAttribute="trailing" constant="103" id="0hR-uh-IlT"/>
+                            <constraint firstItem="Yeq-IN-n33" firstAttribute="top" secondItem="vfY-nM-xlT" secondAttribute="bottom" constant="25" id="16Y-gW-Aqs"/>
+                            <constraint firstItem="Yeq-IN-n33" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="147.5" id="48a-bN-S7b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yeq-IN-n33" secondAttribute="trailing" constant="147.5" id="6W4-RF-eis"/>
+                            <constraint firstItem="vfY-nM-xlT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="Cgz-7o-pl5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yeq-IN-n33" secondAttribute="bottom" constant="271" id="FMz-Np-kbf"/>
+                            <constraint firstItem="vfY-nM-xlT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="W4q-W9-KMw"/>
+                            <constraint firstItem="Yeq-IN-n33" firstAttribute="top" secondItem="vfY-nM-xlT" secondAttribute="bottom" constant="25" id="yrn-hb-lpH"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="3pi-TK-uLe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857.25190839694653" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tQd-8Q-oxj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kr0-hA-KIq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rrb-R1-SD4">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pmr-D4-sD1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y8v-zE-3hc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-69.465648854961827" y="3.5211267605633805"/>
         </scene>
