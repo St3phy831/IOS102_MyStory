@@ -11,6 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -24,6 +25,9 @@
                                         <color key="tintColor" red="1" green="0.47867202889999999" blue="0.96443137879999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="About Me"/>
+                                        <connections>
+                                            <action selector="aboutBtnWasTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MuD-Bc-P5V"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-QP-4pu">
                                         <rect key="frame" x="0.0" y="34.333333333333314" width="98" height="34.333333333333343"/>
@@ -68,10 +72,31 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3pi-TK-uLe"/>
+                    <connections>
+                        <outlet property="abilitiesBtn" destination="IFp-QP-4pu" id="9a6-q6-LLD"/>
+                        <outlet property="aboutMeBtn" destination="oiV-K9-LZK" id="TNr-kj-eE2"/>
+                        <outlet property="funFactBtn" destination="Vtv-rd-H0L" id="umr-Fi-MrS"/>
+                        <segue destination="1lf-97-Hbg" kind="show" identifier="detailSegue" id="K6I-Fh-595"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="857.25190839694653" y="3.5211267605633805"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="0BH-eZ-Zw3">
+            <objects>
+                <viewController id="1lf-97-Hbg" customClass="DetailViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Lb-wa-aJQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mfg-kp-7D0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l7y-4h-Deq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YwV-Mv-CPu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1660" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tQd-8Q-oxj">
