@@ -18,7 +18,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func aboutBtnWasTapped(_ sender: UIButton) {
+   
+    @IBAction func btnWasTapped(_ sender: UIButton) {
         performSegue(withIdentifier: "detailSegue", sender: sender)
     }
     
