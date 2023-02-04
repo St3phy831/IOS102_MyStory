@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44316309298F228900AEC8A6 /* ContextItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44316308298F228900AEC8A6 /* ContextItem.swift */; };
 		443E49CC2989B06100CDD382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E49CB2989B06100CDD382 /* AppDelegate.swift */; };
 		443E49CE2989B06100CDD382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E49CD2989B06100CDD382 /* SceneDelegate.swift */; };
 		443E49D02989B06100CDD382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E49CF2989B06100CDD382 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44316308298F228900AEC8A6 /* ContextItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextItem.swift; sourceTree = "<group>"; };
 		443E49C82989B06100CDD382 /* MyStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		443E49CB2989B06100CDD382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		443E49CD2989B06100CDD382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				443E49D62989B06600CDD382 /* LaunchScreen.storyboard */,
 				443E49D92989B06600CDD382 /* Info.plist */,
 				44FE385E2989C97A001A39CB /* DetailViewController.swift */,
+				44316308298F228900AEC8A6 /* ContextItem.swift */,
 			);
 			path = MyStory;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				443E49D02989B06100CDD382 /* ViewController.swift in Sources */,
+				44316309298F228900AEC8A6 /* ContextItem.swift in Sources */,
 				443E49CC2989B06100CDD382 /* AppDelegate.swift in Sources */,
 				443E49CE2989B06100CDD382 /* SceneDelegate.swift in Sources */,
 				44FE385F2989C97A001A39CB /* DetailViewController.swift in Sources */,
