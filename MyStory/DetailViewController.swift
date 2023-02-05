@@ -8,11 +8,16 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    var info: ContextItem?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        if let contextItem = info {
+            print(contextItem.title)
+        }
     }
     
 

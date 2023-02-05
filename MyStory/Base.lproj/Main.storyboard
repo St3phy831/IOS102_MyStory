@@ -42,7 +42,7 @@
                                                     <action selector="btnWasTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7gW-Ee-bqX"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-QP-4pu">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-QP-4pu">
                                                 <rect key="frame" x="0.0" y="34.333333333333314" width="98" height="34.333333333333343"/>
                                                 <color key="tintColor" red="1" green="0.47867202889999999" blue="0.96443137879999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -51,7 +51,7 @@
                                                     <action selector="btnWasTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wXf-WQ-NnX"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtv-rd-H0L">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtv-rd-H0L">
                                                 <rect key="frame" x="0.0" y="68.666666666666686" width="98" height="34.333333333333343"/>
                                                 <color key="tintColor" red="1" green="0.47867202889999999" blue="0.96443137879999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>

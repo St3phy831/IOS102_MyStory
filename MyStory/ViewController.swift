@@ -28,5 +28,22 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "detailSegue", sender: sender)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == "detailSegue",
+            let tappedBtn = sender as? UIButton,
+            let detailViewController = segue.destination as? DetailViewController {
+
+            if tappedBtn.tag == 0 {
+                detailViewController.info = aboutMe
+            } else if tappedBtn.tag == 1 {
+                detailViewController.info = abilities
+            } else if tappedBtn.tag == 2 {
+                detailViewController.info = funFact
+            } else {
+                print("no button was tapped, please check your selection.")
+            }
+        }
+    }
 }
 
