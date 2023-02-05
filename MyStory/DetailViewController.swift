@@ -10,13 +10,23 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var info: ContextItem?
-
+    
+    @IBOutlet weak var detailTitle: UILabel!
+    @IBOutlet weak var nezukoImage: UIImageView!
+    @IBOutlet weak var detailText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        detailText.lineBreakMode = .byWordWrapping
+        detailText.numberOfLines = 0
+        
         if let contextItem = info {
             print(contextItem.title)
+            detailTitle.text = contextItem.title
+            nezukoImage.image = contextItem.image
+            detailText.text = contextItem.text
         }
     }
     
