@@ -4,7 +4,7 @@ Submitted by: **Stephanie Hernandez**
 
 **MyStory** is an app that introduces the world to Nezuko Kamado, a fictional character from Demon Slayer. This app introduces her background, special abilities, and a fun fact about her.
 
-Time spent: **8** hours spent in total
+Time spent: **9.5** hours spent in total
 
 ## Required Features
 
@@ -29,10 +29,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [GIPHY CAPTURE](https://giphy.com/apps/giphycapture)
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -42,6 +42,7 @@ GIF created with ...
 
 - One of the main challenges was setting the constraints and getting the view to work in both vertical and horizontal orientation. At first, I tried a different approach and realized it was too difficult, so I started from scratch multiple times and played around with it. However, if there's an easier way to do this, I'd love to know!
 - Another challenge was setting the app icon. It's self explanatory and videos on Youtube helped, but I couldn't see the icon once I ran the app. I realized it was because I needed to stop the emulator and quit it. Then, once I reopened it again, it appeared. But, I spent a lot of time until I figured out I had to stop and quit it.
+- I also had trouble creating the gif with Kap (too large of a file size), so I used GIPHY instead. 
 
 ## License
 
